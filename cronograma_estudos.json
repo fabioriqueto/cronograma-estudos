@@ -1,0 +1,543 @@
+[
+    {
+        "nome": "Projeto de Extenção I - ADS",
+        "inicio": "30/01/2026",
+        "fim": "24/05/2026",
+        "fim_trabalhos": "13/06/2026",
+        "provas": [],
+        "status": "Cursando",
+        "unidades": [
+            {
+                "id": 1,
+                "titulo": "Unidade 1 - Extensão Universitária",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": []
+            },
+            {
+                "id": 2,
+                "titulo": "Unidade 2 - Projeto de extensão I - ADS",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": []
+            }
+        ],
+        "trabalhos": [
+            {
+                "id": 1,
+                "data_prevista": "13/06/2026",
+                "data_entrega": "15/05/2026",
+                "nota": null
+            }
+        ]
+    },
+    {
+        "nome": "Análise Orientado a Objetos",
+        "inicio": "30/01/2026",
+        "fim": "01/03/2026",
+        "fim_trabalhos": "21/03/2026",
+        "provas": [
+            {
+                "id": 1,
+                "inicio": "02/03/2026",
+                "fim": "08/03/2026",
+                "nota": null
+            }
+        ],
+        "status": "Cursando",
+        "unidades": [
+            {
+                "id": 1,
+                "titulo": "Unidade 1 - Linguagem de Modelagem Unificada - UML",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Fundamentos da UML",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Técnicas de Modelagem da UML",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - O Processo de Desenvolvimento de Software com UML",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Conceitos fundamentais do paradigma orientada a objetos",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades 1",
+                        "data_entrega": "01/03/2026",
+                        "nota": 100,
+                        "entregue_em": "06/02/2026"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "titulo": "Unidade 2 - Modelagem Essencial de Análise com UML",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Diagrama de Casos de Uso",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Diagrama de Classes",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Diagrama de Atividades",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Diagrama de Máquina de Estados",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercício de unidades 2",
+                        "data_entrega": "01/03/2026",
+                        "nota": 100,
+                        "entregue_em": "12/02/2026"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "titulo": "Unidade 3 - Modelagem Complementar de Análise com UML",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Diagrama de Sequência",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Diagrama de Componentes",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Diagrama de Objetos",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Diagrama de Pacotes e Diagrama de Comunicação",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades 3",
+                        "data_entrega": "01/03/2026",
+                        "nota": 100,
+                        "entregue_em": "20/02/2026",
+                        "finalizado": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "titulo": "Unidade 4 - Modelagem de Caso com UML",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades 4",
+                        "data_entrega": "01/03/2026",
+                        "nota": null,
+                        "entregue_em": null,
+                        "finalizado": false
+                    }
+                ]
+            }
+        ],
+        "trabalhos": [
+            {
+                "id": 1,
+                "data_prevista": "15/02/2026",
+                "data_entrega": "19/02/2026",
+                "nota": 0
+            },
+            {
+                "id": 2,
+                "data_prevista": "04/03/2026",
+                "data_entrega": "22/02/2026",
+                "nota": null
+            },
+            {
+                "id": 3,
+                "data_prevista": "21/03/2026",
+                "data_entrega": "28/02/2026",
+                "nota": null
+            }
+        ]
+    },
+    {
+        "nome": "Sistema de Informação Gerencial",
+        "inicio": "02/02/2026",
+        "fim": "24/05/2026",
+        "fim_trabalhos": null,
+        "provas": [
+            {
+                "id": 1,
+                "inicio": "23/05/2026",
+                "fim": "30/05/2026",
+                "nota": null
+            }
+        ],
+        "status": "Cursando",
+        "unidades": [
+            {
+                "id": 1,
+                "titulo": "Introdução ao Sistema de Informação Gerencial",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "24/05/2026",
+                        "nota": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "titulo": "Tipos de Sistemas de Informação Gerencial",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "24/05/2026",
+                        "nota": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "titulo": "Sistemas Empresariais",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "24/05/2026",
+                        "nota": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "titulo": "Comércio Eletrônico e Gestão dos Sistemas de Informação",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "24/05/2026",
+                        "nota": null
+                    }
+                ]
+            }
+        ],
+        "trabalhos": []
+    }
+]
