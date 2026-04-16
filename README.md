@@ -38,7 +38,7 @@ Este projeto nasceu da necessidade prática durante estudos universitários, ofe
 
 1. **Clone ou baixe o projeto**:
    ```bash
-   cd "C:\Planilha Anhanguera"
+   cd "C:\Users\Silene\Desktop\Planilha Anhanguera"
    ```
 
 2. **Ative o ambiente virtual**:
@@ -53,16 +53,10 @@ Este projeto nasceu da necessidade prática durante estudos universitários, ofe
 
 4. **Execute o aplicativo**:
    ```bash
-   python estudo.py
-   ```
-   
-   no terminal, ou,
-   
-   ```bash
    python app.py
    ```
 
-6. **Acesse no navegador**:
+5. **Acesse no navegador**:
    - [http://localhost:5001](http://localhost:5001)
 
 ## 📋 Estrutura do Projeto
@@ -97,15 +91,11 @@ Este projeto nasceu da necessidade prática durante estudos universitários, ofe
 ## 🤝 Contribuição
 
 Este é um projeto pessoal, mas sugestões são bem-vindas! Para melhorias:
-- Você pode aprimorar este projeto como desejar, e pode começar
-adicionando tratamentos de erros. 
 - Abra uma issue descrevendo a ideia.
 - Faça um fork e envie um pull request.
 
 ## 📄 Licença
 
 Este projeto é de uso pessoal. Sinta-se à vontade para adaptar conforme suas necessidades.
-O uso deste projeto por plataformas ou instituições de ensino é permitido, desde que os créditos ao autor sejam mantidos.
----
 
-**Desenvolvido para otimizar estudos universitários.**
+---

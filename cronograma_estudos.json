@@ -48,7 +48,7 @@
         ]
     },
     {
-        "nome": "Análise Orientado a Objetos",
+        "nome": "Análise Orientada a Objetos",
         "inicio": "30/01/2026",
         "fim": "01/03/2026",
         "fim_trabalhos": "21/03/2026",
@@ -57,10 +57,10 @@
                 "id": 1,
                 "inicio": "02/03/2026",
                 "fim": "08/03/2026",
-                "nota": null
+                "nota": 100
             }
         ],
-        "status": "Cursando",
+        "status": "Concluída",
         "unidades": [
             {
                 "id": 1,
@@ -113,7 +113,8 @@
                         "titulo": "Exercícios de unidades 1",
                         "data_entrega": "01/03/2026",
                         "nota": 100,
-                        "entregue_em": "06/02/2026"
+                        "entregue_em": "06/02/2026",
+                        "finalizado": true
                     }
                 ]
             },
@@ -168,7 +169,8 @@
                         "titulo": "Exercício de unidades 2",
                         "data_entrega": "01/03/2026",
                         "nota": 100,
-                        "entregue_em": "12/02/2026"
+                        "entregue_em": "12/02/2026",
+                        "finalizado": true
                     }
                 ]
             },
@@ -261,16 +263,16 @@
                         "titulo": "Aula 4",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 5,
                         "titulo": "Aula 5",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     }
                 ],
                 "exercicios": [
@@ -278,8 +280,8 @@
                         "id": 1,
                         "titulo": "Exercícios de unidades 4",
                         "data_entrega": "01/03/2026",
-                        "nota": null,
-                        "entregue_em": null,
+                        "nota": 100,
+                        "entregue_em": "27/02/2026",
                         "finalizado": false
                     }
                 ]
@@ -290,19 +292,19 @@
                 "id": 1,
                 "data_prevista": "15/02/2026",
                 "data_entrega": "19/02/2026",
-                "nota": 0
+                "nota": 100
             },
             {
                 "id": 2,
                 "data_prevista": "04/03/2026",
                 "data_entrega": "22/02/2026",
-                "nota": null
+                "nota": 100
             },
             {
                 "id": 3,
                 "data_prevista": "21/03/2026",
-                "data_entrega": "28/02/2026",
-                "nota": null
+                "data_entrega": "06/03/2026",
+                "nota": 100
             }
         ]
     },
@@ -346,24 +348,24 @@
                         "titulo": "Aula 3",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 4,
                         "titulo": "Aula 4",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 5,
                         "titulo": "Aula 5",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     }
                 ],
                 "exercicios": [
@@ -371,7 +373,9 @@
                         "id": 1,
                         "titulo": "Exercícios de unidades",
                         "data_entrega": "24/05/2026",
-                        "nota": null
+                        "nota": 100,
+                        "entregue_em": "06/03/2026",
+                        "finalizado": true
                     }
                 ]
             },
@@ -384,48 +388,48 @@
                         "titulo": "Aula 1",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 2,
                         "titulo": "Aula 2",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 3,
                         "titulo": "Aula 3",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 4,
                         "titulo": "Aula 4",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     },
                     {
                         "id": 5,
                         "titulo": "Aula 5",
                         "data": null,
                         "horario": null,
-                        "assistida": false,
-                        "leitura": false
+                        "assistida": true,
+                        "leitura": true
                     }
                 ],
                 "exercicios": [
                     {
                         "id": 1,
                         "titulo": "Exercícios de unidades",
-                        "data_entrega": "24/05/2026",
-                        "nota": null
+                        "data_entrega": "20/03/2026",
+                        "nota": 100
                     }
                 ]
             },
@@ -539,5 +543,510 @@
             }
         ],
         "trabalhos": []
+    },
+    {
+        "nome": "Linguagem Orientada a Objetos",
+        "inicio": "02/03/2026",
+        "fim": "29/03/2026",
+        "fim_trabalhos": "18/04/2026",
+        "provas": [
+            {
+                "id": 1,
+                "inicio": "28/03/2026",
+                "fim": "04/04/2026",
+                "nota": 90
+            }
+        ],
+        "status": "Cursando",
+        "unidades": [
+            {
+                "id": 1,
+                "titulo": "UNIDADE 1 - Conceitos do Desenvolvimento Orientado a Objetos",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Fundamentos de Orientação a Objetos",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Conceitos Básicos de Orientação a Objetos em Programação",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Introdução às Aplicações Orientadas a Objetos",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Classe, Objeto e Instância",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Conceitos do Desenvolvimento Orientado a Objetos",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades - un01",
+                        "data_entrega": "07/03/2026",
+                        "nota": 100
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "titulo": "UNIDADE 2 - Estruturas do Desenvolvimento Orientado a Objetos",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Construtores e Sobrecarga",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Estruturas de Decisão",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Estruturas de Repetição",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Reutilização de Classes",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Estruturas do Desenvolvimento Orientado a Objetos",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades - un02",
+                        "data_entrega": "11/03/2026",
+                        "nota": 100
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "titulo": "UNIDADE 3 - Classes e Interfaces",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Definição e Uso de Classes",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Definição e Uso de Interfaces",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 Classes Abstratas",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Tratamento de Exceções",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Classes e Interfaces",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "17/03/2026",
+                        "nota": 100
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "titulo": "UNIDADE 4 - Aplicações Orientadas a Objetos",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Conceito e Aplicação",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Tipos de Arrays",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Coleções e Arquivos",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Banco de Dados Relacional",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Aplicações Orientadas a Objetos",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "25/03/2026",
+                        "nota": 100
+                    }
+                ]
+            }
+        ],
+        "trabalhos": [
+            {
+                "id": 1,
+                "data_prevista": "03/04/2026",
+                "data_entrega": "15/03/2026",
+                "nota": 100
+            },
+            {
+                "id": 2,
+                "data_prevista": "11/04/2026",
+                "data_entrega": "22/03/2026",
+                "nota": 100
+            },
+            {
+                "id": 3,
+                "data_prevista": "18/04/2026",
+                "data_entrega": "28/03/2026",
+                "nota": 100
+            }
+        ]
+    },
+    {
+        "nome": "Nova - Modelagem de Dados",
+        "inicio": "30/03/2026",
+        "fim": "26/04/2026",
+        "fim_trabalhos": "16/05/2026",
+        "provas": [
+            {
+                "id": 1,
+                "inicio": "25/04/2026",
+                "fim": "02/05/2026",
+                "nota": null
+            }
+        ],
+        "status": "Cursando",
+        "unidades": [
+            {
+                "id": 1,
+                "titulo": "UNIDADE 1 - Fundamentos de Banco de Dados",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Introdução aos Bancos de Dados",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Sistemas Gerenciadores de Banco de Dados (SGBD)",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Dados como apoio a tomada de decisão",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Tópicos relevantes sobre Banco de Dados",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade UN01",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades - un01",
+                        "data_entrega": "26/04/2026",
+                        "nota": 80
+                    }
+                ]            },
+            {
+                "id": 2,
+                "titulo": "UNIDADE 2 - ",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Modelagem de dados com o modelo Entidade-Relacionamento (ER)",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Elementos do modelo Entidade-Relacionamento (ER) - I",
+                        "data": "None",
+                        "horario": "None",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Elementos do modelo Entidade-Relacionamento (ER) - II",
+                        "data": "none",
+                        "horario": "none",
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Elementos do modelo Entidade-Relacionamento (ER) - III",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade UN02",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades - un02",
+                        "data_entrega": "26/04/2026",
+                        "nota": 100
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "titulo": "UNIDADE 3 - Diagrama Entidade-Relacionamento (DER)",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - ",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Aspectos de projeto em banco de dados",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Notação UML para modelagem de dados",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Ferramentas CASEs de modelagem de dados",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade UN03",
+                        "data": null,
+                        "horario": null,
+                        "assistida": true,
+                        "leitura": true
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "26/04/2026",
+                        "nota": 100
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "titulo": "UNIDADE 4 - Normalização de Dados",
+                "aulas": [
+                    {
+                        "id": 1,
+                        "titulo": "Aula 1 - Normalização de Dados",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Aula 2 - Formas Normais - I",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Aula 3 - Formas Normais - II",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Aula 4 - Engenharia Reversa de Banco de Dados",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    },
+                    {
+                        "id": 5,
+                        "titulo": "Aula 5 - Encerramento da Unidade UN04",
+                        "data": null,
+                        "horario": null,
+                        "assistida": false,
+                        "leitura": false
+                    }
+                ],
+                "exercicios": [
+                    {
+                        "id": 1,
+                        "titulo": "Exercícios de unidades",
+                        "data_entrega": "26/04/2026",
+                        "nota": null
+                    }
+                ]
+            }
+        ],
+        "trabalhos": [
+            {
+                "id": 1,
+                "data_prevista": "30/04/2026",
+                "data_entrega": "30/04/2026",
+                "nota": null
+            },
+            {
+                "id": 2,
+                "data_prevista": "30/04/2026",
+                "data_entrega": "30/04/2026",
+                "nota": null
+            },
+            {
+                "id": 3,
+                "data_prevista": "30/04/2026",
+                "data_entrega": "30/04/2026",
+                "nota": null
+            }
+        ]
     }
 ]

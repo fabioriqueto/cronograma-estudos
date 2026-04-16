@@ -344,9 +344,20 @@ def add_unidade(disc_index):
     
     if request.method == 'POST':
         titulo = request.form.get('titulo')
+        descricao = request.form.get('descricao', '')
+        data_inicio = request.form.get('data_inicio', '')
+        data_fim = request.form.get('data_fim', '')
+        
+        # Gerar ID para nova unidade (baseado no ID máximo + 1)
+        unidades = disciplinas[disc_index]['unidades']
+        novo_id = max([u.get('id', 0) for u in unidades], default=0) + 1
         
         nova_unidade = {
+            "id": novo_id,
             "titulo": titulo,
+            "descricao": descricao,
+            "data_inicio": data_inicio,
+            "data_fim": data_fim,
             "aulas": [],
             "exercicios": []
         }
@@ -364,13 +375,17 @@ def edit_unidade(disc_index, unidade_index):
         return redirect(url_for('index'))
     
     unidade = disciplinas[disc_index]['unidades'][unidade_index]
+    disciplina = disciplinas[disc_index]
     
     if request.method == 'POST':
         unidade['titulo'] = request.form.get('titulo')
+        unidade['descricao'] = request.form.get('descricao', '')
+        unidade['data_inicio'] = request.form.get('data_inicio', '')
+        unidade['data_fim'] = request.form.get('data_fim', '')
         salvar_dados(disciplinas)
         return redirect(url_for('index'))
     
-    return render_template('edit_unidade.html', unidade=unidade, disc_index=disc_index, unidade_index=unidade_index)
+    return render_template('edit_unidade.html', unidade=unidade, disc_index=disc_index, unidade_index=unidade_index, disciplina=disciplina)
 
 @app.route('/delete_unidade/<int:disc_index>/<int:unidade_index>', methods=['POST'])
 def delete_unidade(disc_index, unidade_index):
